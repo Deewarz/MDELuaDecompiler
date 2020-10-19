@@ -18,7 +18,7 @@ namespace DSLuaDecompiler.LuaFileTypes.Structures
             if (Type == ConstantType.TNumber)
                 return NumberValue.ToString(CultureInfo.InvariantCulture);
             if (Type == ConstantType.TNil)
-                return "nill"; 
+                return "nil"; 
             if (Type == ConstantType.TBoolean)
                 return BoolValue ? "true" : "false";
             if (Type == ConstantType.THash)
