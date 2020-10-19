@@ -518,9 +518,13 @@ namespace luadec.IR
             // If it's a string constant, we need it without the "'s and with other values we need a casket
             string left;
             if (Left is Constant c && c.String != null)
-                left = Left.ToString()?.Replace("\"", "");
+                if ((bool)Left.ToString()?.Contains(" "))
+                    left = $"[{Left.ToString()}]";
+                else
+                    left = Left.ToString()?.Replace("\"", "");
             else
                 left = $"[{Left}]";
+                
             return $"{left} = {Right}";
         }
     }
