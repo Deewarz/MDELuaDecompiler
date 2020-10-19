@@ -86,7 +86,7 @@ namespace luadec.IR
             switch (ConstType)
             {
                 case ConstantType.ConstNumber:
-                    return Number.ToString();
+                    return Number.ToString().Replace(',', '.');
                 case ConstantType.ConstString:
                     return "\"" + String + "\"";
                 case ConstantType.ConstBool:
