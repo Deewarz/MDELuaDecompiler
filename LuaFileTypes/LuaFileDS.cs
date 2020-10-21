@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using DSLuaDecompiler.LuaFileTypes.OpCodeTables;
-using DSLuaDecompiler.LuaFileTypes.Structures;
+using MDELuaDecompiler.LuaFileTypes.OpCodeTables;
+using MDELuaDecompiler.LuaFileTypes.Structures;
 using luadec;
 using PhilLibX.IO;
 
-namespace DSLuaDecompiler.LuaFileTypes
+namespace MDELuaDecompiler.LuaFileTypes
 {
     public class LuaFileDS : LuaFile
     {

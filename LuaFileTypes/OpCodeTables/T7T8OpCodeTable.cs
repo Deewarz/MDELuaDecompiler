@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using DSLuaDecompiler.LuaFileTypes.Structures;
+using MDELuaDecompiler.LuaFileTypes.Structures;
 
-namespace DSLuaDecompiler.LuaFileTypes.OpCodeTables
+namespace MDELuaDecompiler.LuaFileTypes.OpCodeTables
 {
     public class T7T8OpCodeTable
     {

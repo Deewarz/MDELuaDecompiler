@@ -16,7 +16,7 @@ namespace luadec
         public static int BlockNotUsed = 0;
         static void Main(string[] args)
         {
-            Console.WriteLine("CoD Havok Decompiler made from katalash's DSLuaDecompiler");
+            Console.WriteLine("MDELuaDecompiler based on CoD Havok Decompiler made from katalash's DSLuaDecompiler");
 
             var files = new List<string>();
             
@@ -57,7 +57,7 @@ namespace luadec
             {
                 Console.WriteLine($"Decompiling file {filePath}");
 
-                var output = DSLuaDecompiler.LuaFileTypes.LuaFile.LoadLuaFile(filePath, new MemoryStream(File.ReadAllBytes(filePath)));
+                var output = MDELuaDecompiler.LuaFileTypes.LuaFile.LoadLuaFile(filePath, new MemoryStream(File.ReadAllBytes(filePath)));
 
                 // TODO: ??
                 Function.DebugIDCounter = 0;
@@ -84,7 +84,7 @@ namespace luadec
 
                 //try
                 //{
-                //    var output = DSLuaDecompiler.LuaFileTypes.LuaFile.LoadLuaFile(filePath, new MemoryStream(File.ReadAllBytes(filePath)));
+                //    var output = MDELuaDecompiler.LuaFileTypes.LuaFile.LoadLuaFile(filePath, new MemoryStream(File.ReadAllBytes(filePath)));
 
                 //    // TODO: ??
                 //    Function.DebugIDCounter = 0;

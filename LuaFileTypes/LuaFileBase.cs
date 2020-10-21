@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using DSLuaDecompiler.LuaFileTypes.Structures;
+using MDELuaDecompiler.LuaFileTypes.Structures;
 using PhilLibX.IO;
 
-namespace DSLuaDecompiler.LuaFileTypes
+namespace MDELuaDecompiler.LuaFileTypes
 {
     public abstract class LuaFile
     {

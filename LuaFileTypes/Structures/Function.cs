@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace DSLuaDecompiler.LuaFileTypes.Structures
+namespace MDELuaDecompiler.LuaFileTypes.Structures
 {
     public class Function
     {

@@ -1,21 +1,19 @@
 # Overview
-[![Releases](https://img.shields.io/github/downloads/JariKCoding/CoDHVKDecompiler/total.svg)](https://github.com/JariKCoding/CoDHVKDecompiler/)
 
-**CoDHVKDecompiler** is a lua decompiler for Havok Scripts from various Call Of Duty games. It's main purpose is to provide access to scripts that Treyarch did not provide in the Call of Duty: Black Ops III Mod Tools and to give greater insight into how Treyarch and the other studios achieved certain things, rebuild menus from the game, etc.
+**MDELuaDecompiler** is a Lua decompiler for Mafia: Definitive Edition.
 
-Supports following games out of the box: **BlackOps2**, **BlackOps3**, **BlackOps4**, **Ghosts**, **AdvancedWarfare**, **InfiniteWarfare**, **ModernWarfareRemastered** and **WorldWar2**
+This is made from [JariKCoding's CoDHVKDecompiler](https://github.com/JariKCoding/CoDHVKDecompiler) and [Katalash's DSLuaDecompiler](https://github.com/katalash/DSLuaDecompiler)
 
-This is made from Katalash's DSLuaDecompiler and this wouldn't be possible without his repo that he put tons of work into. I was going to merge this but I made too many edits specifically for CoD
+**99% of this decompiler is done by Ekey. Huge thanks to him!**
 
-### Why is this decompiler better than all my other ones?
+You can find documented functions and resources here : https://db.nomad-group.net/page/MDE_Scripting
 
-- Proper loop detection
-- SSA (Keeping track of different variables)
+### What can be improved (contribution welcomed)
 
-### What can be improved
-
-- Not all files get decompiled yet
-- Still has some errors with different loops that need to be debugged
+- Reverse functions arguments
+- Reverse HKS_OPCODE_CHECKTYPE
+- Remove _G
+- Add line break and indentation for table
 
 ### How to Use 
 
@@ -24,7 +22,9 @@ This is made from Katalash's DSLuaDecompiler and this wouldn't be possible witho
 
 ## Download
 
-The latest version can be found on the [Releases Page](https://github.com/JariKCoding/CoDHVKDecompiler/releases).
+Not yet...
+<!--- The latest version and decompiled scripts can be found on the [Releases Page](https://github.com/Deewarz/MDELuaDecompiler/releases). -->
+
 
 ## Requirements
 
@@ -33,10 +33,12 @@ The latest version can be found on the [Releases Page](https://github.com/JariKC
 
 ## Credits
 
+- Ekey - Reverse MDE bytecodes and integration
+- JariKCoding - Havok Script decompilation (https://github.com/JariKCoding/CoDHVKDecompiler/)
 - DTZxPorter - Original lua disassembler to find the basics
 - Scobalula - Utilities and general help
-- Katalash & jam1garner - DSLuaDecompiler
+- Katalash & jam1garner - DSLuaDecompiler (https://github.com/katalash/DSLuaDecompiler)
 
 ## License 
 
-CoDHVKDecompiler is licensed under the MIT license and its source code is free to use and modify. CoDHVKDecompiler comes with NO warranty, any damages caused are solely the responsibility of the user. See the LICENSE file for more information.
+MDELuaDecompiler is licensed under the MIT license and its source code is free to use and modify. MDELuaDecompiler comes with NO warranty, any damages caused are solely the responsibility of the user. See the LICENSE file for more information.

@@ -1,4 +1,4 @@
-﻿namespace DSLuaDecompiler.LuaFileTypes.Structures
+﻿namespace MDELuaDecompiler.LuaFileTypes.Structures
 {
     public class Local
     {

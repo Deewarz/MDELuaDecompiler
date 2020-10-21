@@ -1,4 +1,4 @@
-﻿namespace DSLuaDecompiler.LuaFileTypes.Structures
+﻿namespace MDELuaDecompiler.LuaFileTypes.Structures
 {
     /// <summary>
     /// All the data that is in the file header for a normal Havok script

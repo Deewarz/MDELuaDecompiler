@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DSLuaDecompiler.LuaFileTypes;
-using DSLuaDecompiler.LuaFileTypes.Structures;
+using MDELuaDecompiler.LuaFileTypes;
+using MDELuaDecompiler.LuaFileTypes.Structures;
 using luadec.IR;
-using Constant = DSLuaDecompiler.LuaFileTypes.Structures.Constant;
-using Function = DSLuaDecompiler.LuaFileTypes.Structures.Function;
+using Constant = MDELuaDecompiler.LuaFileTypes.Structures.Constant;
+using Function = MDELuaDecompiler.LuaFileTypes.Structures.Function;
 
 namespace luadec
 {
