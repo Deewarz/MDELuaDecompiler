@@ -4,7 +4,7 @@
 
 This is made from [JariKCoding's CoDHVKDecompiler](https://github.com/JariKCoding/CoDHVKDecompiler) and [Katalash's DSLuaDecompiler](https://github.com/katalash/DSLuaDecompiler)
 
-**99% of this decompiler is done by Ekey. Huge thanks to him!**
+**99% of MDE decompilation is done by Ekey. Huge thanks to him!**
 
 You can find documented functions and resources here : https://db.nomad-group.net/page/MDE_Scripting
 
